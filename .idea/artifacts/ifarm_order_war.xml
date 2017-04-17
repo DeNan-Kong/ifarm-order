@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ifarm-order:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ifarm-order.war">
+      <element id="artifact" artifact-name="ifarm-order:war exploded" />
+    </root>
+  </artifact>
+</component>
