@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>订单系统</title>
   </head>
   <body>
-  $END$
+  <p>order-server success</p>
   </body>
 </html>

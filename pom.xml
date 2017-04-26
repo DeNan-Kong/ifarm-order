@@ -13,11 +13,6 @@
     <version>1.0.0</version>
     <packaging>war</packaging>
     <dependencies>
-        <dependency>
-            <groupId>com.ifarm</groupId>
-            <artifactId>ifarm-manager-mapper</artifactId>
-            <version>1.0.0</version>
-        </dependency>
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -69,6 +64,11 @@
             <artifactId>ifarm-common</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.ifarm</groupId>
+            <artifactId>ifarm-manager-mapper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
     <build>
         <!-- 配置插件 -->
@@ -79,7 +79,7 @@
                 <configuration>
                     <port>8085</port>
                     <path>/</path>
-                    <url>http://localhost:8083/manager/text</url>
+                    <url>http://localhost:8082/manager/text</url>
                     <username>tomcat</username>
                     <password>tomcat</password>
                 </configuration>
